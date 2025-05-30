@@ -1,0 +1,166 @@
+/* Base Styles */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #1f1f1f, #292929);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ff5722;
+  text-shadow: 0px 0px 5px rgba(255, 87, 34, 0.8);
+}
+
+/* Search Section */
+.search-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-section input {
+  width: 60%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: #242424;
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-section input:focus {
+  background-color: #292929;
+  box-shadow: 0px 0px 10px rgba(255, 87, 34, 0.6);
+}
+
+/* App List */
+.app-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Mod Card */
+.card {
+  background: linear-gradient(160deg, #242424, #1c1c1c);
+  border-radius: 12px;
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(255, 87, 34, 0.8);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+/* Buttons */
+.download-button,
+.telegram-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Download Button */
+.download-button {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.download-button:hover {
+  background-color: #e64a19;
+  transform: scale(1.1);
+}
+
+/* Telegram Button */
+.telegram-button {
+  background-color: #0088cc;
+  color: #fff;
+}
+
+.telegram-button:hover {
+  background-color: #006699;
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background: linear-gradient(90deg, #1f1f1f, #292929);
+  margin-top: 20px;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+/* VPN Button */
+.vpn-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #4CAF50; /* Green for VPN security */
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.vpn-button:hover {
+  background-color: #388E3C;
+  transform: scale(1.1);
+}
